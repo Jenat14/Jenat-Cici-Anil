@@ -46,10 +46,80 @@
     color: #c1c0c0;
 }
 .section-title{
-    text-align: center;
     color: #FF8225;
-    font-weight: 700;
+    font-weight: bold;
 }
+#about {
+    background-color: #f8f9fa;
+  }
+  
+  #about .container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .profile {
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile:hover {
+    transform: scale(1.05);
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+    color: #666;
+  }
+  .bio{
+    text-align: justify;
+  }
+  #about h4 {
+    color: #FF8225;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+    
+   .about-btn{
+    background-color: #FF8225;
+    color: #fff5f5;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .skill-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-level {
+    margin-top: 10px;
+  }
+  
+  .skill-label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    background: #e9ecef;
+    border-radius: 5px;
+    height: 8px;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  
+  .skill-progress {
+    background: #28a745;
+    height: 100%;
+    border-radius: 5px;
+  }
 .project-btn{
     background-color: #FF8225;
     color: #ffffff;
@@ -100,4 +170,5 @@
 .copy{
     color: #FF8225;
 }
+
 
