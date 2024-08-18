@@ -153,9 +153,11 @@
 .skills{
   background-color: #FF8225;
   color:#f8f9fa;
+  width: 30%;
 }
 .exp{
   background-image: url('./assets/Background-img.png');
   background-size: cover;
   color: #f8f9fa;
+  max-width: 70%;
 }
