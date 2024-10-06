@@ -10,45 +10,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    
 </head>
 <body>
     <!--Hero Section-->
     <section id="hero">
-        <div class="navigation">
-            <header class="d-flex flex-wrap justify-content-center py-3 mx-4 mb-4 border-bottom">
-              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <span class="fs-4 header-text">Jenat Cici Anil</span>
-              </a>
-              <ul class="nav nav-pills z-2">
-                <li class="nav-item"><a href="#hero" class="nav-link items">Home</a></li>
-                <li class="nav-item "><a href="#about" class="nav-link items">Resume</a></li>
-                <li class="nav-item "><a href="#projects" class="nav-link items">Projects</a></li>
-                <li class="nav-item "><a href="#contact" class="nav-link items">Contact</a></li>
-              </ul>
-            </header>
+      <div class="navigation">
+        <header class="d-flex flex-wrap justify-content-center py-3 mx-4 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <span class="fs-4 header-text">Jenat Cici Anil</span>
+          </a>
+          <ul class="nav nav-pills z-2">
+            <li class="nav-item"><a href="#hero" class="nav-link items">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link items">Resume</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link items">Projects</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link items">Contact</a></li>
+          </ul>
+        </header>
+      </div>
+    
+      <div class="container col-xxl-8 px-4 py-5 hero-container">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6 z-2">
           </div>
-          <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6 z-2">
-              </div>
-              <div class="col-lg-6 z-2">
-                <p class=" hero-p">Hello!</p>
-                <h1 class=" display-5 fw-bold  lh-1 mb-3 hero-heading">I'm Jenat Cici Anil</h1>
-                <p class=" hero-p">A passionate Web Developer</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <a href="./assets/Resume_Jenat Cici Anil.pdf" download><button type="button" class="btn btn-lg px-4 me-md-2 hero-btn">Resume</button></a>
-                  <a  href="#projects"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Projects</button></a>
-                </div>
-              </div>
+          <div class="col-lg-6 z-2">
+            <p class="hero-p animated fadeIn">Hello!</p>
+            <h1 class="display-5 fw-bold lh-1 mb-3 hero-heading animated fadeInUp">I'm Jenat Cici Anil</h1>
+            <p class="hero-p animated fadeInUp">A passionate Web Developer</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="./assets/Resume_Jenat Cici Anil.pdf" download><button type="button" class="btn btn-lg px-4 me-md-2 hero-btn">Resume</button></a>
+              <a href="#projects"><button type="button" class="btn btn-outline-secondary btn-lg px-4 hero-btn-outline">Projects</button></a>
             </div>
           </div>
+        </div>
+      </div>
     </section>
+    
     <!--About Section-->
     <section id="about" class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 text-center">
-            <h2 class="mb-3 display-5 section-title">About Me</h2>
+            <h2 class="mb-3 display-5 section-title animated-title">About Me</h2>
             <img src="./assets/Photo.jpg" alt="Image" class="img-fluid rounded-circle shadow-lg mb-4" style="width: 200px; height: 200px; object-fit: cover;">
             <p class="lead mb-4">Frontend Developer | Blockchain Enthusiast</p>
             <p class="mb-4 bio">
@@ -171,10 +174,9 @@
           <div id="experience">
               <h2 class="text-center section-title mb-4">Experience</h2>
               <div class="row">
-              
                 <!--Experience 1-->
                 <div class="col-md-12 mb-4">
-                  <div class="border rounded bg-white mb-4 shadow-sm d-flex sm:flex-row">
+                  <div class="border rounded bg-white mb-4 shadow-sm d-flex">
                       <div class="exp w-100 p-3">
                         <h5 class="font-weight-bold">Hubspire Technology Solution Pvt Ltd</h5>
                         <h6 class="text-white-50">Frontend Development Intern</h6>
@@ -192,7 +194,7 @@
                   </div>
  <!--Experience 2-->
  <div class="col-md-12 mb-4">
-  <div class="border rounded bg-white mb-4 shadow-sm d-flex sm:flex-row">
+  <div class="border rounded bg-white mb-4 shadow-sm d-flex ">
       <div class="exp w-100 p-3">
         <h5 class="font-weight-bold">Intel Corporation</h5>
         <h6 class="text-white-50">Intel Unnati Trainee</h6>
@@ -210,10 +212,9 @@
   </div>
   </div>
         <div class="text-center">
-          <a href="./assets/Resume_Jenat Cici Anil.pdf" class="btn about-btn">Download Resume</a>
+          <a href="./assets/Jenat Cici Anil - Resume.pdf" class="btn about-btn">Download Resume</a>
         </div>
-        
-      </div>
+  </div>
     </section>
  
     <!--Projects Section-->
